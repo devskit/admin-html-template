@@ -1,0 +1,230 @@
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: #2C3E50;
+}
+
+.svg-icon circle {
+    stroke: #2C3E50;
+    stroke-width: 1;
+}
+
+
+
+/******* Messages */
+.message {
+    color: #fff;
+    border-radius: 4px;
+    padding: 15px 20px;
+    margin: 15px 0;
+}
+.message.success {
+    background: #27ae60;
+}
+.message.error {
+    background: #d35400;
+}
+
+/******* Pagination */
+ul.pagination {
+    display: block;
+    clear: both;
+    margin: 25px 0;
+    padding-top: 50px;
+    text-align:center
+}
+
+ul.pagination li {
+    display: inline-block;
+    list-style: none;
+}
+
+ul.pagination li a,
+ul.pagination li span{
+    text-decoration: none;
+    padding: 5px 15px;
+    color: #fff;
+    background-color: #2C3E50;
+    margin: 3px;
+    display: block;
+}
+
+ul.pagination li.disabled a,
+ul.pagination li.disabled span {
+    background:#777;
+}
+ul.pagination li.active a,
+ul.pagination li.active span {
+    background: #2C3E50;
+}
+
+/******* Header */
+
+.header {
+    background: #2c3e50;
+    height:52px;
+}
+.header .logo {
+    color: #fff;
+    font-size: 18px;
+    float: left;
+    text-decoration: none;
+    padding: 10px 0;
+}
+.header .user {
+    float: right;
+    padding: 10px 0;
+    cursor:pointer;
+    position:relative
+}
+.header .user:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+.header .user .dropdown {
+    visibility: hidden;
+    border-radius: 4px;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    padding: 40px;
+    max-width: 300px;
+    min-width: 150px;
+    top: 14px;
+    right: -60px;
+    z-index: 1;
+}
+.header .user .dropdown a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #FFF;
+    background: #34495E;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+.header .user .dropdown a:hover {
+    background: #2c3e50
+}
+.header .name {
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: bottom;
+    line-height: 30px;
+    font-size:16px
+}
+.header .svg-avatar {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.header .svg-avatar path {
+    fill: #fff
+}
+
+
+
+
+/****** Main */
+.main {
+    padding: 60px 0;
+}
+.main .navigation {
+    border-radius: 4px;
+    overflow: hidden;
+}
+.main .navigation a {
+    background: #34495E;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+.main .navigation a:hover,
+.main .navigation a.selected {
+    background: #2C3E50;
+}
+.main .details {
+    margin: 0 0 40px 0;
+    text-align: center;
+}
+.main .details h2 {
+    margin: 0;
+    font-size: 30px;
+}
+.main .details p {
+    color: #848484;
+}
+
+.main .content {}
+.main .content .statistics {
+    margin: 50px 0;
+}
+.main .content .statistics .statistic {
+    border-radius: 4px;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    display:block;
+    text-decoration: none;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+.statistic h5 {
+    margin: 0
+}
+.statistic svg {
+    width: 50px;
+    height: 50px;
+}
+.statistic svg path {
+    fill: #fff
+}
+.statistic.purchases {
+    background: #27ae60;
+}
+.statistic.sessions {
+    background: #2980b9
+}
+.statistic.feedback {
+    background: #d35400
+}
+.statistic.purchases:hover {
+    background: #249751;
+}
+.statistic.sessions:hover {
+    background: #256c9e
+}
+.statistic.feedback:hover {
+    background: #b95000
+}
+
+.subscribers {
+    margin: 50px 0;
+}
+.subscribers table {
+    width: 100%;
+}
